@@ -25,7 +25,7 @@ body {
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.192;
     text-decoration: none;
     letter-spacing: 0.03em;
     
@@ -46,6 +46,10 @@ body {
  .site-nav .link {
     color: var(--accent-color);
     text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.143;
+        letter-spacing: 0.02em;
  }
  .site-nav .link:hover,
  .site-nav .link:focus {
@@ -54,19 +58,17 @@ body {
 
  .site-nav .item {
     color: var(--primary-text-color);
-    font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.143;
         letter-spacing: 0.02em;
     text-decoration: none;
 }
 .auth-nav .contact {
     color: var(--accent-color);
-    font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.143;
         letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -78,10 +80,9 @@ body {
  
 .auth-nav .contact-icon {
     color: var(--title-text-color);
-    font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.143;
         letter-spacing: 0.02em;
         text-decoration: none;  
 }
@@ -96,10 +97,9 @@ body {
 .hero-title {
     color: #FFFFFF;
     background: #2F303A;
-    font-family: 'Roboto';
         font-weight: 900;
         font-size: 44px;
-        line-height: 60px;
+        line-height: 1.364;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
@@ -113,7 +113,7 @@ body {
         font-family: 'Roboto';
             font-weight: 700;
             font-size: 16px;
-            line-height: 30px;
+            line-height: 1.875;
             cursor: pointer;
 }
 
@@ -121,19 +121,17 @@ body {
 
 .section-title {
     color: var(--primary-text-color);
-    font-family: 'Roboto';
         font-weight: 700;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.143;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
 .section-text {
     color: var(--title-text-color);
-    font-family: 'Roboto';
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.714;
         letter-spacing: 0.03em; 
 }
 
@@ -141,10 +139,9 @@ body {
 
 .title-section {
     color: var(--primary-text-color);
-    font-family: 'Roboto';
         font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
+        line-height: 1.167;
         text-align: center;
         letter-spacing: 0.03em;
     }
@@ -156,19 +153,16 @@ body {
 
     .text-section {
         color: var(--primary-text-color);
-        font-family: 'Roboto';
             font-weight: 500;
-            line-height: 19px;
+            line-height: 1.188;
             text-align: none;
             letter-spacing: 0.03em;
         }
     .name {
         color: var(--title-text-color);
-        font-family: 'Roboto';
-            line-height: 19px;
+            line-height: 1.188;
             text-align: none;
             letter-spacing: 0.03em;
-            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
             border-radius: 0px 0px 4px 4px;
     }
  
@@ -186,7 +180,7 @@ body {
     font-family: 'Roboto';
         font-style: normal;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.714;
         letter-spacing: 0.03em;
         text-decoration: none;
 }
@@ -196,7 +190,7 @@ body {
     font-family: 'Roboto';
         font-style: normal;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.714;
         letter-spacing: 0.03em;
         text-decoration: none;
 }
@@ -206,7 +200,7 @@ body {
     font-family: 'Roboto';
         font-style: normal;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.714;
         letter-spacing: 0.03em;
         text-decoration: none;
 }
@@ -227,7 +221,8 @@ body {
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 1.625;
         text-align: none;
         letter-spacing: 0.03em;
             border-radius: 4px;
@@ -246,16 +241,14 @@ body {
 }
 .list-portfolio-title {
     color: var(--primary-text-color);
-    font-family: 'Roboto';
         font-weight: 700;
         font-size: 18px;
-        line-height: 36px;
+        line-height: 2;
         letter-spacing: 0.06em;
     }
 
  .list-portfolio-text {
     color: var(--title-text-color);
-    font-family: 'Roboto';
-        line-height: 30px;
+        line-height: 1.875;
       letter-spacing: 0.03em;
  }
